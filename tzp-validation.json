@@ -1,0 +1,105 @@
+{
+  "source": "https://www.curseforge.com/minecraft/texture-packs/tissous-zombie-repack/files/8547910",
+  "sourceSha256": "028d5251d41f74417295575d163f350352bee8938f985bcf832ef6864c87734f",
+  "output": "tzp-sivi-26.1.2.zip",
+  "bytes": 15056055,
+  "sha1": "a8fecf0c4546820e9ace9f56c53132fac2cd27ed",
+  "sha256": "104829b6167acdede67a9a907446edb5771b6f8f1a5f0224933b3598607889c6",
+  "format": 84,
+  "entries": 3941,
+  "validJsonFiles": 8,
+  "validSoundReferences": 303,
+  "renamedAudioFiles": 297,
+  "removedMissingReferences": [
+    {
+      "name": "moreZsounds/say130",
+      "event": "entity.zombie.ambient"
+    },
+    {
+      "name": "moreZsounds/say131",
+      "event": "entity.zombie.ambient"
+    },
+    {
+      "name": "moreZsounds/say138",
+      "event": "entity.zombie.ambient"
+    },
+    {
+      "name": "moreZsounds/say143",
+      "event": "entity.zombie.ambient"
+    },
+    {
+      "name": "moreZsounds/say144",
+      "event": "entity.zombie.ambient"
+    },
+    {
+      "name": "moreZsounds/say145",
+      "event": "entity.zombie.ambient"
+    }
+  ],
+  "removedUnusedJson": "assets/minecraft/sounds/mob/sounds.json",
+  "changedFileContents": [
+    "pack.mcmeta",
+    "assets/minecraft/sounds.json"
+  ],
+  "addedFiles": [
+    "SIVI-CREDITS.txt"
+  ],
+  "vanillaFallbackTextures": [
+    "zombie/zombie",
+    "zombie/husk",
+    "zombie/drowned",
+    "zombie_villager/zombie_villager"
+  ],
+  "tzpSoundEvents": [
+    "entity.zombie.ambient",
+    "entity.zombie.hurt",
+    "entity.zombie.death"
+  ],
+  "zasMusicEvents": 32,
+  "currentPacksVerified": [
+    {
+      "entries": 1959,
+      "id": "cclast",
+      "sha1": "195efd01a031d4c9764e6e36b1654ee75c6b9152"
+    },
+    {
+      "entries": 4,
+      "id": "zas-music",
+      "sha1": "cc034caaa22624a9112b2006a31f57f321ac7e51"
+    },
+    {
+      "entries": 22,
+      "id": "endfield-fmg",
+      "sha1": "24604a75ad19dfd261465e218c7563b8a65f9e82"
+    },
+    {
+      "entries": 1160,
+      "id": "betterhud",
+      "sha1": "cce5c0ff9bcd24bee179bdf718895df2783eeacf"
+    },
+    {
+      "entries": 21,
+      "id": "sivi-props",
+      "sha1": "04b2c7373c4bad79a740aa2a53859057566e0be7"
+    }
+  ],
+  "assetOverlaps": [
+    {
+      "path": "assets/minecraft/optifine/emissive.properties",
+      "pack": "cclast",
+      "resolution": "Same emissive suffix _e"
+    },
+    {
+      "path": "assets/minecraft/sounds.json",
+      "pack": "zas-music",
+      "resolution": "Disjoint event keys; automatic Minecraft sound merge"
+    }
+  ],
+  "allEntryRoundtripHashesMatch": true,
+  "originalTextureAudioBytesUnchanged": true,
+  "invalidZipNegativeTestPassed": true,
+  "liveConfigUnchanged": true,
+  "inGameTested": false,
+  "pngImagesDecoded": 3581,
+  "pngDecodeErrors": 0
+}
